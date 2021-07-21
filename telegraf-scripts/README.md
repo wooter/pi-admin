@@ -7,7 +7,7 @@ To add the scripts to your `tmp` folder:
 ```
 wget https://github.com/mikemahoney218/pi-admin/archive/master.zip -O telegraf-scripts.zip && \
     unzip telegraf-scripts.zip pi-admin-master/telegraf-scripts/* && \
-    sudo mkdir -p /tmp/telegraf-scripts && \
+    sudo mkdir -p /lib/telegraf-scripts && \
     sudo mv pi-admin-master/telegraf-scripts/* /lib/telegraf-scripts && \
     rm telegraf-scripts.zip && \
     rm -rf pi-admin-master
